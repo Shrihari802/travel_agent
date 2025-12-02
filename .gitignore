@@ -1,0 +1,23 @@
+#
+# Ignore everything in this directory by default
+#
+*
+
+# Never commit environment files from dev
+.env
+.env.*
+
+#
+# Keep core files
+#
+!.gitignore
+!agent1.py
+!README.md
+!requirement.txt
+
+#
+# Keep only these agent folders (and everything inside them)
+#
+!travel_agent/
+!budget_agent/
+!host_agent/
